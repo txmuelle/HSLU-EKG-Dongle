@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MK22FN512xxx12</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M4</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>128k</SRAMsize>
+    <FLASHsize>512k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\IO_Map\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\Peripherals\</Path>
+      <Path>C:\Freescale\KDS_v3\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Project_Settings\Startup_Code\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\Peripherals\</Path>
+      <Path>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_CS.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_DRDY.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_PWDN.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_RESET.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_SM1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_START.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd2.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd3.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd4.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd5.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd6.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd7.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Blue_LED.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CDC1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CLS1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CS1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\FRTOS1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Green_LED.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\LEDpin1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\LEDpin2.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\MCUC1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Rx1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\SMasterLdd1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\TMOUT1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Tx1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\USB1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\UTIL1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\WAIT1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\XF1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\croutine.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\event_groups.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\heap_1.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\heap_2.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\heap_3.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\heap_4.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\heap_5.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\heap_useNewlib.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\list.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\mpu_wrappers.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\port.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\queue.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\stream_buffer.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\tasks.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\timers.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_cdc.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_cdc_pstn.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_class.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_dci_kinetis.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_descriptor.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_driver.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_framework.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\wdt_kinetis.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\ADS1298.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\Application.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\Events.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\Platform.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\main.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\shell.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\Peripherals\USB0_Init.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\CPU_Init.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\Peripherals_Init.c</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\Vectors.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_CS.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_DRDY.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_PWDN.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_RESET.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_SM1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\ADS_START.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd2.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd3.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd4.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd5.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd6.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\BitIoLdd7.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Blue_LED.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Blue_LEDconfig.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CDC1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CDC1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CLS1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CLS1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CPU_Config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CS1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\CS1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\FRTOS1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\FRTOS1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\FSL_USB_Stack_Config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\FreeRTOS.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\FreeRTOSConfig.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Green_LED.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Green_LEDconfig.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Init_Config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\LEDpin1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\LEDpin2.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\MCUC1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\MCUC1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Rx1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Rx1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\SMasterLdd1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\TMOUT1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\TMOUT1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Tx1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Tx1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\USB0.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\USB0_Config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\USB1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\USB1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\USB_Config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\UTIL1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\UTIL1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\Vectors_Config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\WAIT1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\XF1.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\XF1config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\croutine.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\deprecated_definitions.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\derivative.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\event_groups.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\freertos_tasks_c_additions.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\hidef.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\list.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\message_buffer.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\mpu_prototypes.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\mpu_wrappers.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\portTicks.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\portable.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\portmacro.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\projdefs.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\queue.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\semphr.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\stack_macros.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\stream_buffer.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\task.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\timers.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\types.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_bdt_kinetis.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_cdc.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_cdc_pstn.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_class.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_dci_kinetis.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_dciapi.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_descriptor.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_devapi.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_framework.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\usb_user_config.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\wdt_kinetis.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\ADS1298.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\Application.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\Events.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\Platform.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\derivative.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\hidef.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Sources\shell.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\IO_Map\MK22F51212.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\ADC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\CMP_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\CRC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\DAC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\DMAMUX_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\DMA_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\EWM_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\FMC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\FTFA_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\FTM_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\GPIO_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\I2C_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\LLWU_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\LPTMR_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\LPUART_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\MCG_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\MCM_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\OSC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\PDB_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\PDD_Types.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\PIT_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\PMC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\PORT_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\RCM_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\RNGA_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\RTC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\SAI_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\SCB_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\SIM_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\SMC_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\SPI_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\SysTick_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\UART_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\USB_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\VREF_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\PDD\WDOG_PDD.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\Peripherals\USB0_Init.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\CPU_Init.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\PDD_Includes.h</PathName>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Static_Code\System\Peripherals_Init.h</PathName>
+    </GeneratedHs>
+    <GeneratedASMs>
+      <PathName>C:\HSLU\Elektrotech\Intro\INTRO-F17-Team\Project\EKG_Dongle\Generated_Code\portasm.s</PathName>
+    </GeneratedASMs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
